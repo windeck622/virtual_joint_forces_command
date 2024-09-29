@@ -11500,7 +11500,7 @@ a:hover {
   min-height: 600px;
   text-align: center;
   color: #fff;
-  background-image: url(../imgs/header.jpg);
+  background-image: url(../imgs/cover_hornet.jpg);
   background-size: cover;
   background-position: center;
   -webkit-transition: .2s;
@@ -11632,7 +11632,7 @@ body {
   position: relative;
   text-align: center;
   color: #fff;
-  background-image: url(../imgs/footer.jpg);
+  background-image: url(../imgs/footer_mudhen.jpg);
   background-size: cover;
   background-position: bottom;
 }

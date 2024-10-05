@@ -1,11 +1,15 @@
 /*!
 =========================================================
-* Dorang Landing page V 1.0
+* Dorang Landing page V 1.0.1vjfc
 =========================================================
 
 * Copyright: 2019 DevCRUD (https://devcrud.com)
 * Licensed: (https://devcrud.com/licenses)
 * Coded by www.devcrud.com
+* 
+* Modified: 05OCT2024
+* Editor: Windeck
+* Change: changed images, add footer-float-icon
 
 =========================================================
 
@@ -5782,6 +5786,24 @@ a.badge-dark:focus, a.badge-dark.focus {
   }
 }
 
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 @keyframes progress-bar-stripes {
   from {
     background-position: 1rem 0;
@@ -11277,7 +11299,7 @@ a:hover {
 }
 
 .page-navbar .nav-navbar .nav-link img {
-  width: calc(25px + (45 - 25) * ((100vw - 300px) / (1300 - 300)));
+  width: calc(20px + (45 - 25) * ((100vw - 300px) / (1300 - 300)));
 }
 
 .page-navbar .nav-navbar .search {
@@ -11344,7 +11366,7 @@ a:hover {
 
 .page-navbar.affix {
   background: #212529;
-  height: 70px;
+  height: 75px;
   border-bottom: 1px solid rgba(173, 181, 189, 0.1);
 }
 
@@ -11472,6 +11494,14 @@ a:hover {
 
 .footer .links a:first-child {
   margin-left: 0;
+}
+
+.footer-float-icon {
+  position:fixed;
+  animation: 10s ease-out 0s 1 slideInFromRight;
+  right:10px;
+  bottom: 10px;
+  z-index:1000;
 }
 
 @media (max-width: 991.98px) {
@@ -11691,7 +11721,7 @@ body.light-theme .theme-selector .spinner i {
 }
 
 body.light-theme .header {
-  background-image: url(../imgs/header-light.jpg);
+  background-image: url(../imgs/cover_hornet.jpg);
 }
 
 body.light-theme .header .overlay {

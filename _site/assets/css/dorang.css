@@ -11496,9 +11496,16 @@ a:hover {
   margin-left: 0;
 }
 
-.footer-float-icon {
+.footer-float-animation-icon {
   position:fixed;
   animation: 10s ease-out 0s 1 slideInFromRight;
+  right:10px;
+  bottom: 10px;
+  z-index:1000;
+}
+
+.footer-float-icon {
+  position:fixed;
   right:10px;
   bottom: 10px;
   z-index:1000;

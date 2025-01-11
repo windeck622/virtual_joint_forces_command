@@ -19,7 +19,7 @@ let appFooter = `
 
             <!-- Copyright Section -->
             <div style="flex: 1; text-align: right;">
-              <p>&copy; <span id="year"></span> Virtual Joint Forces Command Inc.</p>
+              <p>&copy; ${year} Virtual Joint Forces Command Inc.</p>
               <p>Non-Profit | EIN: 33-2786845</p>
             </div>
           </div>

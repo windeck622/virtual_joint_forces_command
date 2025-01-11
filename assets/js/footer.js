@@ -23,7 +23,7 @@ let appFooter = `
                       <p>&copy; ${year} Virtual Joint Forces Command Inc.</p>
                       <p>Non-Profit | EIN: 33-2786845</p>
                   </div>
-                  <img src="assets/imgs/digital_seal.png" alt="Digital Seal" style="max-height: 50px; margin-top: 10px;">
+                  <img src="assets/imgs/corp/digital_seal.png" alt="Digital Seal" style="max-height: 50px; margin-top: 10px;">
 
           </div>
         </footer>

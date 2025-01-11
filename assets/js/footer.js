@@ -11,6 +11,7 @@ let appFooter = `
 
             <!-- Links Section -->
               <div style="flex: 2; text-align: center; display: flex; flex-direction: column; align-items: center;">
+                  <a style="margin: 5px 0;color: #fff;height: 30px;"></a> <!-- spacer -->
                   <a href="index.html#About-Us-Section" style="margin: 5px 0;color: #fff;">About Us</a>
                   <a href="orbat.html#" style="margin: 5px 0;color: #fff;">ORBAT</a>
                   <a href="train.html#" style="margin: 5px 0;color: #fff;">Training</a>

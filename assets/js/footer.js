@@ -21,7 +21,7 @@ let appFooter = `
               <div style="flex: 2; text-align: right;">
                   <p>&copy; ${year} Virtual Joint Forces Command Inc.</p>
                   <p>Non-Profit | EIN: 33-2786845</p>
-                  <p>Non-Profit | EIN: 33-2786845</p>
+                  <p>PO Box 208, Sayville,NY 11782</p>
               </div>
               <div style="flex: 1; text-align: right;">
                   <img src="assets/imgs/digital_seal.png" alt="Digital Seal" style="max-height: 30px; margin-top: 10px;">

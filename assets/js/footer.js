@@ -1,31 +1,29 @@
-var yearValue = new Date().getFullYear();
+var year = new Date().getFullYear();
 
 let appFooter = `
-    <footer class="footer">
-
-        <div class="container col-md-10">
-            <div class="col-md-6 col-lg-8 m-auto">
-                
-                <div class="links">
-                    <a href="index.html#About-Us-Section">About Us</a>
-                    <a href="orbat.html#">ORBAT</a>
-                    <a href="train.html#">Training</a>
-                    <a href="rules.html#">Rules</a>
-                </div>
-
-                <div class="row mb-5">
-                    <p class="infos">&copy; ${yearValue} 501(c)(3) non-profit</p>
-                    <span>|</span> 
-                    <div>Virtual Joint Forces Command Inc.</div>
-                    <span>|</span>  
-                    <div>EIN: 33-2786845</div> 
-                </div>
-                <div class="row mb-5">
-                    <div>Design by <a href="http://www.devcrud.com">DevCRUD</a></div> 
-                </div>
+    <!--footer -->
+    <footer style="padding: 20px; text-align: center;">
+          <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+            <!-- Logo Section -->
+            <div style="flex: 1;">
+              <img src="assets/imgs/vjfcom_logo.png" alt="Website Logo" style="max-height: 50px;">
             </div>
-        </div>
-        
-    </footer><!-- end of footer -->
+
+            <!-- Links Section -->
+            <div style="flex: 2; text-align: center;">
+              <a href="index.html#About-Us-Section" style="margin: 0 10px;">About Us</a>
+              <a href="orbat.html#" style="margin: 0 10px;">ORBAT</a>
+              <a href="train.html#" style="margin: 0 10px;">Training</a>
+              <a href="rules.html#" style="margin: 0 10px;">Rules</a>
+            </div>
+
+            <!-- Copyright Section -->
+            <div style="flex: 1; text-align: right;">
+              <p>&copy; <span id="year"></span> Virtual Joint Forces Command Inc.</p>
+              <p>Non-Profit | EIN: 33-2786845</p>
+            </div>
+          </div>
+        </footer>
+    <!-- end of footer -->
 `;
 document.getElementById("app-footer").innerHTML = appFooter;

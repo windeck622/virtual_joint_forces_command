@@ -10,15 +10,15 @@ let appFooter = `
             </div>
 
             <!-- Links Section -->
-            <div style="flex: 1; text-align: center;">
-              <a href="index.html#About-Us-Section" style="margin: 0 10px;">About Us</a>
-              <a href="orbat.html#" style="margin: 0 10px;">ORBAT</a>
-              <a href="train.html#" style="margin: 0 10px;">Training</a>
-              <a href="rules.html#" style="margin: 0 10px;">Rules</a>
-            </div>
+              <div style="flex: 2; text-align: center; display: flex; flex-direction: column; align-items: center;">
+                  <a href="index.html#About-Us-Section" style="margin: 5px 0;">About Us</a></br>
+                  <a href="orbat.html#" style="margin: 5px 0;">ORBAT</a></br>
+                  <a href="train.html#" style="margin: 5px 0;">Training</a></br>
+                  <a href="rules.html#" style="margin: 5px 0;">Rules</a>
+              </div>
 
             <!-- Copyright and Seal Section -->
-              <div style="flex: 2; text-align: right; display: flex; flex-direction: column; align-items: flex-end;">
+              <div style="flex: 1; text-align: right; display: flex; flex-direction: column; align-items: flex-end;">
                   <img src="assets/imgs/corp/digital_seal.png" alt="Digital Seal" style="max-height: 50px; margin-top: 10px;">
                   <div>
                       <p>&copy; ${year} Virtual Joint Forces Command Inc.</p>

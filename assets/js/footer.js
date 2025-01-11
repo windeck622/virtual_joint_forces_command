@@ -6,12 +6,12 @@ let appFooter = `
         <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
             <!-- Logo Section -->
             <div style="flex: 1;">
-              <img src="assets/imgs/vjfcom_logo.png" alt="Website Logo" style="max-height: 50px;">
+              <img src="assets/imgs/vjfcom_logo.png" alt="Website Logo" style="max-height: 75px;">
             </div>
 
             <!-- Links Section -->
               <div style="flex: 2; text-align: center; display: flex; flex-direction: column; align-items: center;">
-                  <a href="index.html#About-Us-Section" style="margin: 5px 0;">About Us</a>
+                  <a href="index.html#About-Us-Section" style="margin: 5px 0;color: #fff;">About Us</a>
                   <a href="orbat.html#" style="margin: 5px 0;color: #fff;">ORBAT</a>
                   <a href="train.html#" style="margin: 5px 0;color: #fff;">Training</a>
                   <a href="rules.html#" style="margin: 5px 0;color: #fff;">Rules</a>
